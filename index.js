@@ -115,6 +115,7 @@ function renderChessBoard(board, container) {
   if (haveZero === 0) {
     theMoves.sort((a, b) => a[0] - b[0]);
 
+    console.log(theMoves)
     const html = [];
     for (let i = 0; i < BOARD_SIZE; i++) {
       for (let j = 0; j < BOARD_SIZE; j++) {
