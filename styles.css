@@ -121,3 +121,8 @@ h2 {
 .knight {
   color: black;
 }
+.size {
+  font-size: x-large;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
