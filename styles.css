@@ -24,11 +24,13 @@ h2 {
 #containBoard {
   width: 400px;
   height: 400px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 #board {
+  border: 1px rgb(46, 43, 43) solid;
   display: grid;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
@@ -41,18 +43,18 @@ h2 {
   height: 50px;
   width: 50px;
   font-weight: bold;
-  border: 1px rgb(46, 43, 43) solid;
+  border: 0.01px rgb(46, 43, 43) solid;
 }
 
 .checkboard_white {
   background-color: #fdf7e4;
   color: black;
 }
-
 .checkboard_black {
-  background-color: #bbab8c;
+  background-color: #607274;
   color: white;
 }
+
 #myForm {
   display: flex;
   flex-direction: column;
@@ -95,8 +97,9 @@ h2 {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 200px;
+  width: 150px;
   will-change: transform;
+  margin: 20px;
 }
 
 .button-28:disabled {
